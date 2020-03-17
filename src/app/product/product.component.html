@@ -1,3 +1,17 @@
-<p>
-product works!
-</p>
+<div class="card h-100">
+    <a href="#"><img class="card-img-top" [src]=product.img alt=""></a>
+    <div class="card-body">
+        <h4 class="card-title">
+            <a href="#">{{product.name}}</a>
+        </h4>
+        <h5>${{product.price}}</h5>
+        <p class="card-text">{{product.desc}}</p>
+        <p class="card-text">{{product.status ? 'in stock' : 'out stock'}}</p>
+        <button class="btn btn-primary" (click)="changeStatus()">Click Me</button>
+        <!-- <input type="text" class="form-control mt-3" (keyup) ="changeName($event)"> -->
+        <input type="text" class="form-control mt-3" [(ngModel)]="product.name">
+    </div>
+    <div class="card-footer">
+        <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+    </div>
+</div>
