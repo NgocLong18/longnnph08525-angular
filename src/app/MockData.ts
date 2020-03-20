@@ -6,7 +6,7 @@ export const data : Product[] = [
       price: 24.99,
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!',
       status: false,
-      img: 'http://placehold.it/275x175'
+      img: 'https://dummyimage.com/700x400/000/fff'
     },
     {
       id: 2,
@@ -14,7 +14,7 @@ export const data : Product[] = [
       price: 24.99,
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!',
       status: false,
-      img: 'http://placehold.it/275x175'
+      img: 'https://dummyimage.com/700x400/000/fff'
     }
     ,
     {
@@ -23,7 +23,7 @@ export const data : Product[] = [
       price: 24.99,
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!',
       status: false,
-      img: 'http://placehold.it/275x175'
+      img: 'https://dummyimage.com/700x400/000/fff'
     },
     {
       id: 4,
@@ -31,7 +31,7 @@ export const data : Product[] = [
       price: 24.99,
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!',
       status: false,
-      img: 'http://placehold.it/275x175'
+      img: 'https://dummyimage.com/700x400/000/fff'
     },
     {
       id: 5,
@@ -39,7 +39,7 @@ export const data : Product[] = [
       price: 24.99,
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!',
       status: false,
-      img: 'http://placehold.it/275x175'
+      img: 'https://dummyimage.com/700x400/000/fff'
     }
     ,
     {
@@ -48,7 +48,7 @@ export const data : Product[] = [
       price: 24.99,
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!',
       status: false,
-      img: 'http://placehold.it/275x175'
+      img: 'https://dummyimage.com/700x400/000/fff'
     },
     {
       id: 7,
@@ -56,7 +56,7 @@ export const data : Product[] = [
       price: 24.99,
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!',
       status: false,
-      img: 'http://placehold.it/275x175'
+      img: 'https://dummyimage.com/700x400/000/fff'
     },
     {
       id: 8,
@@ -64,7 +64,7 @@ export const data : Product[] = [
       price: 24.99,
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!',
       status: false,
-      img: 'http://placehold.it/275x175'
+      img: 'https://dummyimage.com/700x400/000/fff'
     },
     {
       id: 9,
@@ -72,7 +72,7 @@ export const data : Product[] = [
       price: 24.99,
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!',
       status: false,
-      img: 'http://placehold.it/275x175'
+      img: 'https://dummyimage.com/700x400/000/fff'
     }
     ,
     {
@@ -81,6 +81,6 @@ export const data : Product[] = [
       price: 24.99,
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!',
       status: false,
-      img: 'http://placehold.it/275x175'
+      img: 'https://dummyimage.com/700x400/000/fff'
     }
 ]

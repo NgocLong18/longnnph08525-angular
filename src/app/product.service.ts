@@ -17,7 +17,7 @@ export class ProductService {
     const newProduct = {
       id: 5, ...product, desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!',
       status: false,
-      img: 'http://placehold.it/275x175'
+      img: 'https://dummyimage.com/700x400/000/fff'
     };
     this.products.push(newProduct);
     console.log(this.products)
