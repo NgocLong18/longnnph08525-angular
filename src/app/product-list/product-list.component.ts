@@ -38,10 +38,10 @@ export class ProducListComponent implements OnInit {
 
   // selected: Product;
 
-  // showDetail(product){
-  //   this.selected = product;
-  //   console.log(product)
-  // }
+  showDetail(product){
+    this.selected = product;
+    console.log(product)
+  }
   // removeProduct(id){
 
   // }
