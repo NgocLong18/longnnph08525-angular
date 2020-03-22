@@ -23,6 +23,9 @@ export class ProducListComponent implements OnInit {
 
   getProduct() {
     this.products = this.productService.getProducts();
+    // this.productService.getProducts0().subscribe(data => {
+    //   console.log(data);
+    //  });
   }
 
   removeItem(id) {
@@ -38,9 +41,8 @@ export class ProducListComponent implements OnInit {
 
   // selected: Product;
 
-  showDetail(product){
-    this.selected = product;
-    console.log(product)
+  showDetail(id){
+    // return this.products.find(product => this.products.id === id) 
   }
   // removeProduct(id){
 
@@ -50,6 +52,7 @@ export class ProducListComponent implements OnInit {
   // price: number =24.99;
   // desc: string ="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!";
   // status:  boolean = true;
+
 
 
 }
